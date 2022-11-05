@@ -2,7 +2,7 @@
 import './App.css';
 import IdCard from './components/IdCard';
 import Greetings from "./components/Greetings"
-
+import Random from "./components/Random"
 
 
 function App() {
@@ -34,6 +34,10 @@ function App() {
 
 <hr />
 
+<Random min={1} max={6}/>
+<Random min={1} max={100}/>
+
+<hr />
 
 
     </div>
